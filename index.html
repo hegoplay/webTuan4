@@ -26,6 +26,7 @@
             width: 61.03%;
             background-color: transparent;
             border: 1px solid #eff1f3;
+            margin-left: 5.83%;
         }
         
         #right {
@@ -35,7 +36,7 @@
         
         #left {
             width: 5.83%;
-            height: 1080px;
+            height: 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -70,7 +71,7 @@
 <body>
     <div id="wrapper">
         <div id="container">
-            <div id="left">
+            <div id="left" style="position: fixed;">
                 <div id="left_above">
                     <img class="item" src="src/img/logo.png" alt="">
                     <img class="item" src="src/img/home.png" alt="">
@@ -81,7 +82,7 @@
 
                 <div id="below">
                     <img src="src/img/avatar.png" width="44" alt="">
-                    <img id="setting" src="src/img/setting.png" width="44" alt="">
+                    <img id="setting" src="src/img/setting.png" width="44" alt="" style="margin-bottom: 10px;">
                 </div>
             </div>
             <div id="center">
@@ -110,7 +111,7 @@
                     <div class="small-screen-item">
                         <img src="src/img/img2.png" alt="" width="100%" class="small-screen-item-img">
                         <p class="small-screen-item-name"><i class="fa-solid fa-circle" style="font-size: 10px;margin: 0 5px;color:#1dd75b"></i> Christan Scott</p>
-                        <img src="src/img/mic1.png" alt="" class="small-screen-item-mic">
+                        <img src="src/img/mic_grey_color.png" alt="" class="small-screen-item-mic">
                     </div>
                     <div class="small-screen-item">
                         <img src="src/img/img1.png" alt="" width="100%" class="small-screen-item-img">
@@ -122,6 +123,15 @@
                         <p class="small-screen-item-name"><i class="fa-solid fa-circle" style="font-size: 10px;margin: 0 5px;color:#1dd75b"></i> Jordan Nieves</p>
                         <img src="src/img/mic_grey_color.png" alt="" class="small-screen-item-mic">
                     </div>
+                </div>
+                <div class="call-section">
+                    <img src="src/img/mic_grey_color.png" alt="" class="call-section-item">
+                    <img src="src/img/cam_color.png" alt="" class="call-section-item">
+                    <img src="src/img/speaker_grey_color.png" alt="" class="call-section-item">
+                    <p  id = "end-meeting">End meeting</p>
+                    <img src="src/img/Button 2179.png" alt="" class="call-section-item">
+                    <img src="src/img/share.png" alt="" class="call-section-item">
+                    <img src="src/img/extend.png" alt="" class="call-section-item">
                 </div>
             </div>
 

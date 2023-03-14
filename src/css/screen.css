@@ -78,3 +78,22 @@
     width: 38px;
     height: 38px;
 }
+.call-section{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0;
+}
+.call-section-item{
+    margin: 0 1%;
+    width: 5.5%;
+}
+#end-meeting{
+    margin: 0 1%;
+    padding: 18px;
+    font-size: 120%;
+    color:aliceblue;
+    background-color: RGB(242 33 40);
+    border-radius: 5px;
+}
