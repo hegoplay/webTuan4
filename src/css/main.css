@@ -53,3 +53,45 @@ body {
     padding: 0 12px;
     letter-spacing: 1px;
 }
+#center,#right,#left,#right-top,#right-bottom{
+    border: 1px solid #eff1f3;
+    border-collapse: collapse;
+}
+#right-top{
+    height: 30%;
+    margin: 0;
+    padding:7.4% 7.4% 3.7% 7.4%;
+}
+#right-bottom{
+    height: 64.4%;
+}
+#right-top .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.right-top-item{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 135%;
+    margin-bottom: 4.27%;
+}
+.right-top-item-left{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right-top-item-right{
+    display:inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: inherit;
+    width: fit-content;
+}
+.right-top-item-right-item{
+    margin:0 10%;
+    color: rgb(110 119 135);
+    width: 200%;
+}
